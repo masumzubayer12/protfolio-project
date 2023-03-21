@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #B3B6B7;
+    margin-top: 10px;
+
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #34495E;
+}
+header{
+    padding: 20px;
+    
+}
+.profile-img{
+    height: 150px;
+    width: 100px;
+    border: 5px solid #fff;
+    border-radius: 20%;
+    float: left;
+    margin-left: 10px;
+    
+}
+.profile-bio{
+    font-family: 'IBM Plex Mono', monospace;
+    color: #fff;
+    font-weight: bolder;
+    margin: 60px 0 0 10px;
+    float: left;
+}
+.profile-contact{
+    float: right;
+    font-family: 'Rubik', sans-serif;
+    padding: 20px;
+    margin: 40px;
+    font-size: 20px;
+}
+.profile-contact span{
+    color: #fff;
+}
+.profile-contact a , b{
+    text-decoration: none;
+    color: greenyellow;
+}
+.profile-contact a:hover , b:hover{
+    color: #e4a3a3;
+}
+.clear-div{
+    clear: both;
+}
+hr{
+    
+    margin-bottom: 0;
+    border: 2px solid #fff;
+}
+main{
+    padding: 0 20px 20px 20px;
+}
+.personal-head{
+    height: 80px;
+    width: 250px;
+    float: left;
+    margin: 1px 0 0 20px;
+}
+.personal-head h3{
+
+    color: #fff;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 20px;
+
+}
+.personal-body{
+
+   margin: 10px 0 20px 40px;
+   float: left;
+
+}
+.personal-body ul li{
+    color: #fff;
+    font-family: 'Merriweather', serif;
+    margin: 10px;
+    list-style-type: disc;
+}
+.skill-head{
+    margin: 1px 0px 0px 10px;
+    height: 80px;
+    width: 250px;
+    float: left;
+}
+.skill-head p{
+    color: #fff;
+    font-family: 'Merriweather', serif;
+    margin: 6px;
+    font-size: 20px;
+}
+.skill-body{
+    color: #fff;
+    font-family: 'Merriweather', serif;
+    margin: 6px 0 20px 65px;
+    float: left;
+    font-size: 20px;
+}
+.skill-body ul li{
+    margin: 10px;
+    list-style-type:circle;
+}
+.contact-head{
+    margin: 1px 0px 0px 9px;
+    height: 80px;
+    width: 250px;
+    float: left;
+}
+.contact-head p{
+    color: #fff;
+    font-family: 'Merriweather', serif;
+    font-size: 25px;
+}
+.contact-body{
+    float: left;
+}
+.contact-body img{
+    height: 100px;
+    width: 150px;
+    margin: 10px;
+}
+footer{
+    padding: 20px;
+}
+.footer p{
+    background-color: #000;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    color: #fff;
+}
